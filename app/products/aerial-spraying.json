@@ -1,0 +1,10 @@
+{
+    "task": "Aerial Spraying", 
+    "id": "aerial-spraying", 
+    "coords": "40.558928, -93.404217", 
+    "status": "Complete", 
+    "due": "Sun Jan 25 2015",
+    "assignee": "John",
+    "planned": 3.00,
+    "applied": 2.25
+}

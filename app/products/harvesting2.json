@@ -1,0 +1,10 @@
+{
+    "task": "Harvesting", 
+    "id": "harvesting2", 
+    "coords": "41.456257, -90.288639", 
+    "status": "Unassigned", 
+    "due": "Sat Feb 28 2015",
+    "assignee": "Fred",
+    "planned": "--",
+    "applied": "--"
+}

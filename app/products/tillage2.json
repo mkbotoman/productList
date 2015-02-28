@@ -1,0 +1,10 @@
+{
+    "task": "Tillage", 
+    "id": "tillage2", 
+    "coords": "41.274656, -94.405268", 
+    "status": "In Progress", 
+    "due": "Tue Jan 20 2015",
+    "assignee": "Bob",
+    "planned": "--",
+    "applied": "--"
+}

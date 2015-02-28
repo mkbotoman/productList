@@ -1,0 +1,38 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <!--Sidebar content-->
+
+      Search: <input ng-model="query">
+      Sort by:
+      <select ng-model="orderProp">
+        <option value="name">Alphabetical</option>
+        <option value="age">Newest</option>
+      </select>
+
+    </div>
+    <div class="col-md-10">
+      <!--Body content-->
+      <table class="table">
+        <tr>
+          <th>Task</th>
+          <th>Coords</th> 
+          <th>Status</th>
+          <th>Due Date</th>
+          <th>Assignee</th> 
+          <th>Product quantity planned (gallons)</th>
+          <th>Product quantity applied (gallons)</th>
+        </tr>
+        <tr ng-repeat="product in products | filter:query | orderBy:orderProp">
+          <td><a href="#/products/{{product.id}}">{{product.task}}</a></td>
+          <td>{{product.coords}}</td> 
+          <td>{{product.status}}</td> 
+          <td>{{product.due}}</td> 
+          <td>{{product.assignee}}</td> 
+          <td>{{product.planned}}</td> 
+          <td>{{product.applied}}</td> 
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

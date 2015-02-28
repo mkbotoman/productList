@@ -1,0 +1,10 @@
+{
+    "task": "Spreading", 
+    "id": "spreading", 
+    "coords": "40.000498, -92.072098", 
+    "status": "Not Started", 
+    "due": "Sat Feb 28 2015",
+    "assignee": "Bob",
+    "planned": "--",
+    "applied": "--"
+}

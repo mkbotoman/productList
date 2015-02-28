@@ -1,0 +1,10 @@
+{
+    "task": "Spraying", 
+    "id": "spraying", 
+    "coords": "41.166101, -92.21995", 
+    "status": "Not Started", 
+    "due": "Sun Jan 11 2015",
+    "assignee": "Bob",
+    "planned": 2.00,
+    "applied": "--"
+}

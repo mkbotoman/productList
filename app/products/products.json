@@ -1,0 +1,92 @@
+[
+    {
+        "task": "Spraying", 
+        "id": "spraying", 
+        "coords": "41.166101, -92.21995", 
+        "status": "Not Started", 
+        "due": "Sun Jan 11 2015",
+        "assignee": "Bob",
+        "planned": 2.00,
+        "applied": "--"
+    }, 
+    {
+        "task": "Aerial Spraying", 
+        "id": "aerial-spraying", 
+        "coords": "40.558928, -93.404217", 
+        "status": "Complete", 
+        "due": "Sun Jan 25 2015",
+        "assignee": "John",
+        "planned": 3.00,
+        "applied": 2.25
+    }, 
+    {
+        "task": "Tillage", 
+        "id": "tillage", 
+        "coords": "41.953487, -92.797302", 
+        "status": "Complete", 
+        "due": "Wed Jan 07 2015",
+        "assignee": "Fred",
+        "planned": "--",
+        "applied": "--"
+    },
+    {
+        "task": "Tillage", 
+        "id": "tillage2", 
+        "coords": "41.274656, -94.405268", 
+        "status": "In Progress", 
+        "due": "Tue Jan 20 2015",
+        "assignee": "Bob",
+        "planned": "--",
+        "applied": "--"
+    }, 
+    {
+        "task": "Injecting", 
+        "id": "injecting", 
+        "coords": "40.326999, -90.661879", 
+        "status": "Complete", 
+        "due": "Wed Feb 04 2015",
+        "assignee": "Fred",
+        "planned": 5.50,
+        "applied": 7.00
+    },
+    {
+        "task": "Harvesting", 
+        "id": "harvesting", 
+        "coords": "41.262881, -94.709791", 
+        "status": "In Progress", 
+        "due": "Mon Feb 02 2015",
+        "assignee": "John",
+        "planned": "--",
+        "applied": "--"
+    }, 
+    {
+        "task": "Spreading", 
+        "id": "spreading", 
+        "coords": "40.000498, -92.072098", 
+        "status": "Not Started", 
+        "due": "Sat Feb 28 2015",
+        "assignee": "Bob",
+        "planned": "--",
+        "applied": "--"
+    }, 
+    {
+        "task": "Harvesting", 
+        "id": "harvesting2", 
+        "coords": "41.456257, -90.288639", 
+        "status": "Unassigned", 
+        "due": "Sat Feb 28 2015",
+        "assignee": "Fred",
+        "planned": "--",
+        "applied": "--"
+    }, 
+    {
+        "task": "Aerial Spraying", 
+        "id": "aerial-spraying2", 
+        "coords": "40.949634, -90.023125", 
+        "status": "Complete", 
+        "due": "Mon Jan 26 2015",
+        "assignee": "John",
+        "planned": 12.00,
+        "applied": 12.00
+    },   
+]
