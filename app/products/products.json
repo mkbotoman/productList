@@ -7,7 +7,8 @@
         "due": "Sun Jan 11 2015",
         "assignee": "Bob",
         "planned": 2.00,
-        "applied": "--"
+        "applied": "--",
+        "icon": "<i class='fa fa-tint'></i>"
     }, 
     {
         "name": "Aerial Spraying", 
@@ -17,7 +18,8 @@
         "due": "Sun Jan 25 2015",
         "assignee": "John",
         "planned": 3.00,
-        "applied": 2.25
+        "applied": 2.25,
+        "icon": "<i class='fa fa-plane'></i>"
     }, 
     {
         "name": "Tillage", 
@@ -27,7 +29,8 @@
         "due": "Wed Jan 07 2015",
         "assignee": "Fred",
         "planned": "--",
-        "applied": "--"
+        "applied": "--",
+        "icon": "<i class='fa fa-level-up'></i>"
     },
     {
         "name": "Tillage", 
@@ -37,7 +40,8 @@
         "due": "Tue Jan 20 2015",
         "assignee": "Bob",
         "planned": "--",
-        "applied": "--"
+        "applied": "--",
+        "icon": "<i class='fa fa-level-up'></i>"
     }, 
     {
         "name": "Injecting", 
@@ -47,7 +51,8 @@
         "due": "Wed Feb 04 2015",
         "assignee": "Fred",
         "planned": 5.50,
-        "applied": 7.00
+        "applied": 7.00,
+        "icon": "<i class='fa fa-eyedropper'></i>"
     },
     {
         "name": "Harvesting", 
@@ -57,7 +62,8 @@
         "due": "Mon Feb 02 2015",
         "assignee": "John",
         "planned": "--",
-        "applied": "--"
+        "applied": "--",
+        "icon": "<i class='fa fa-pagelines'></i>"
     }, 
     {
         "name": "Spreading", 
@@ -67,7 +73,8 @@
         "due": "Sat Feb 28 2015",
         "assignee": "Bob",
         "planned": "--",
-        "applied": "--"
+        "applied": "--",
+        "icon": "<i class='fa fa-arrows-alt'></i>"
     }, 
     {
         "name": "Harvesting", 
@@ -77,7 +84,8 @@
         "due": "Sat Feb 28 2015",
         "assignee": "Fred",
         "planned": "--",
-        "applied": "--"
+        "applied": "--",
+        "icon": "<i class='fa fa-pagelines'></i>"
     }, 
     {
         "name": "Aerial Spraying", 
@@ -87,6 +95,7 @@
         "due": "Mon Jan 26 2015",
         "assignee": "John",
         "planned": 12.00,
-        "applied": 12.00
+        "applied": 12.00,
+        "icon": "<i class='fa fa-plane'></i>"
     }   
 ]
