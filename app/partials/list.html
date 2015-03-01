@@ -1,38 +1,37 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-2">
-      <!--Sidebar content-->
-
-      Search: <input ng-model="query">
-      Sort by:
-      <select ng-model="orderProp">
-        <option value="name">Alphabetical</option>
-        <option value="age">Newest</option>
-      </select>
-
-    </div>
-    <div class="col-md-10">
+    <div class="col-md-12">
       <!--Body content-->
-      <table class="table">
-        <tr>
-          <th>Task</th>
-          <th>Coords</th> 
-          <th>Status</th>
-          <th>Due Date</th>
-          <th>Assignee</th> 
-          <th>Product quantity planned (gallons)</th>
-          <th>Product quantity applied (gallons)</th>
-        </tr>
-        <tr ng-repeat="product in products | filter:query | orderBy:orderProp">
-          <td><a href="#/products/{{product.id}}">{{product.task}}</a></td>
-          <td>{{product.coords}}</td> 
-          <td>{{product.status}}</td> 
-          <td>{{product.due}}</td> 
-          <td>{{product.assignee}}</td> 
-          <td>{{product.planned}}</td> 
-          <td>{{product.applied}}</td> 
-        </tr>
-      </table>
+      <div class="panel panel-default">
+        <!-- Default panel contents -->
+        <div class="panel-heading">
+          Task List
+          <select ng-model="orderProp" class="right">
+            <option value="name">Alphabetical</option>
+            <option value="age">Newest</option>
+          </select>
+        </div>
+        <table class="table table-striped table-hover">
+          <tr>
+            <th>Task</th>
+            <th>Coords</th> 
+            <th>Status</th>
+            <th>Due Date</th>
+            <th>Assignee</th> 
+            <th>Product quantity planned (gallons)</th>
+            <th>Product quantity applied (gallons)</th>
+          </tr>
+          <tr ng-repeat="products in products | filter:query | orderBy:orderProp">
+            <td><a href="#/products/{{products.id}}">{{products.name}}</a></td>
+            <td>{{products.coords}}</td> 
+            <td>{{products.status}}</td> 
+            <td>{{products.due}}</td> 
+            <td>{{products.assignee}}</td> 
+            <td>{{products.planned}}</td> 
+            <td>{{products.applied}}</td> 
+          </tr>
+        </table>
+      </div>
     </div>
   </div>
 </div>
