@@ -8,7 +8,7 @@
         "assignee": "Bob",
         "planned": 2.00,
         "applied": "--",
-        "icon": "<i class='fa fa-tint'></i>"
+        "icon": "fa-tint"
     }, 
     {
         "name": "Aerial Spraying", 
@@ -19,7 +19,7 @@
         "assignee": "John",
         "planned": 3.00,
         "applied": 2.25,
-        "icon": "<i class='fa fa-plane'></i>"
+        "icon": "fa-plane"
     }, 
     {
         "name": "Tillage", 
@@ -30,7 +30,7 @@
         "assignee": "Fred",
         "planned": "--",
         "applied": "--",
-        "icon": "<i class='fa fa-level-up'></i>"
+        "icon": "fa-level-up"
     },
     {
         "name": "Tillage", 
@@ -41,7 +41,7 @@
         "assignee": "Bob",
         "planned": "--",
         "applied": "--",
-        "icon": "<i class='fa fa-level-up'></i>"
+        "icon": "fa-level-up"
     }, 
     {
         "name": "Injecting", 
@@ -52,7 +52,7 @@
         "assignee": "Fred",
         "planned": 5.50,
         "applied": 7.00,
-        "icon": "<i class='fa fa-eyedropper'></i>"
+        "icon": "fa-eyedropper"
     },
     {
         "name": "Harvesting", 
@@ -63,7 +63,7 @@
         "assignee": "John",
         "planned": "--",
         "applied": "--",
-        "icon": "<i class='fa fa-pagelines'></i>"
+        "icon": "fa-pagelines"
     }, 
     {
         "name": "Spreading", 
@@ -74,7 +74,7 @@
         "assignee": "Bob",
         "planned": "--",
         "applied": "--",
-        "icon": "<i class='fa fa-arrows-alt'></i>"
+        "icon": "fa-arrows-alt"
     }, 
     {
         "name": "Harvesting", 
@@ -85,7 +85,7 @@
         "assignee": "Fred",
         "planned": "--",
         "applied": "--",
-        "icon": "<i class='fa fa-pagelines'></i>"
+        "icon": "fa-pagelines"
     }, 
     {
         "name": "Aerial Spraying", 
@@ -96,6 +96,6 @@
         "assignee": "John",
         "planned": 12.00,
         "applied": 12.00,
-        "icon": "<i class='fa fa-plane'></i>"
+        "icon": "fa-plane"
     }   
 ]

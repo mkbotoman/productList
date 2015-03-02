@@ -8,6 +8,7 @@ productControllers.controller('ProductListCtrl', ['$scope', 'Product',
   function($scope, Product) {
     $scope.products = Product.query();
     $scope.orderProp = 'name';
+    //pivot columns and rows
     $(".reverse").click(function(){
       $("table").each(function() {
         var $this = $(this);
@@ -29,13 +30,3 @@ productControllers.controller('ProductListCtrl', ['$scope', 'Product',
     });
   }]);
 
-productControllers.controller('ProductDetailCtrl', ['$scope', '$routeParams', 'Product',
-  function($scope, $routeParams, Product) {
-    $scope.product = Product.get({productId: $routeParams.productId}, function(product) {
-      $scope.mainImageUrl = product.images[0];
-    });
-
-    $scope.setImage = function(imageUrl) {
-      $scope.mainImageUrl = imageUrl;
-    }
-  }]);

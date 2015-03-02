@@ -18,3 +18,33 @@ body {
   float: right;
   padding: 0 15px;
 }
+
+.fa-plane{
+  padding-left: 5px;
+  color: #673AB7;
+}
+
+.fa-pagelines{
+  padding-left: 5px;
+  color: #4CAF50;
+}
+
+.fa-eyedropper{
+  padding-left: 5px;
+  color: #F44336;
+}
+
+.fa-tint{
+  padding-left: 5px;
+  color: #2196F3;
+}
+
+.fa-arrows-alt{
+  padding-left: 5px;
+  color: #009688;
+}
+
+.fa-level-up{
+  padding-left: 5px;
+  color: #795548;
+}
