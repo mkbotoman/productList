@@ -27,8 +27,8 @@
             <td><i class="fa {{products.icon}}"></i></td>
             <td>{{products.name}}</td>
             <td><a href="http://maps.google.com/?ie=UTF8&hq=&ll={{products.coords}}&z=13">{{products.coords}}</a></td> 
-            <td>{{products.status}}</td> 
-            <td>{{products.due | overdue | date:'MM/dd/yyyy' }}</td> 
+            <td>{{overdue(products.due, products.status);}}</td> 
+            <td>{{products.due | date:'MM/dd/yyyy' }}</td> 
             <td>{{products.assignee}}</td> 
             <td>{{products.planned}}</td> 
             <td>{{products.applied}}</td> 

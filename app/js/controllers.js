@@ -8,6 +8,17 @@ productControllers.controller('ProductListCtrl', ['$scope', 'Product',
   function($scope, Product) {
     $scope.products = Product.query();
     $scope.orderProp = 'name';
+
+    $scope.overdue = function(due, status) {
+      var now = new Date();
+      var parsed = Date.parse(now);
+      if (due < parsed && status != "Complete") {
+        return status = "OVERDUE";
+      } else {
+        return status
+      }
+    };
+
     //pivot columns and rows
     $(".reverse").click(function(){
       $("table").each(function() {
