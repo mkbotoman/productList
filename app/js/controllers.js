@@ -7,7 +7,6 @@ var productControllers = angular.module('productControllers', []);
 productControllers.controller('ProductListCtrl', ['$scope', 'Product',
   function($scope, Product) {
     $scope.products = Product.query();
-    $scope.orderProp = 'name';
 
     $scope.overdue = function(due, status) {
       var now = new Date();

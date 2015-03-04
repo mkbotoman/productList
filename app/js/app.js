@@ -4,7 +4,6 @@
 
 var productApp = angular.module('productApp', [
   'ngRoute',
-
   'productControllers',
   'productServices'
 ]);
@@ -18,5 +17,5 @@ productApp.config(['$routeProvider',
       }).
       otherwise({
         redirectTo: '/products'
-      });
-  }]);
+    });
+}]);
