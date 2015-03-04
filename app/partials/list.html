@@ -19,7 +19,7 @@
             <th>Product quantity planned (gallons)</th>
             <th>Product quantity applied (gallons)</th>
           </tr>
-          <tr ng-repeat="products in products | filter:query | orderBy:orderProp">
+          <tr ng-repeat="products in products | filter:query">
             <td><i class="fa {{products.icon}}"></i></td>
             <td>{{products.name}}</td>
             <td><a href="http://maps.google.com/?ie=UTF8&hq=&ll={{products.coords}}&z=13">{{products.coords}}</a></td> 

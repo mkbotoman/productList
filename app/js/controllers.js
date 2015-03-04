@@ -8,6 +8,7 @@ productControllers.controller('ProductListCtrl', ['$scope', 'Product',
   function($scope, Product) {
     $scope.products = Product.query();
 
+    //mark overdue tasks
     $scope.overdue = function(due, status) {
       var now = new Date();
       var parsed = Date.parse(now);
