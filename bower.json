@@ -1,8 +1,5 @@
 {
-  "name": "angular-phonecat",
-  "description": "A starter project for AngularJS",
-  "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-phonecat",
+  "name": "maureens-demo",
   "license": "MIT",
   "private": true,
   "dependencies": {
