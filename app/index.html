@@ -14,9 +14,7 @@
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="bower_components/angular-resource/angular-resource.js"></script>
   <script src="js/app.js"></script>
-  <script src="js/animations.js"></script>
   <script src="js/controllers.js"></script>
-  <script src="js/filters.js"></script>
   <script src="js/services.js"></script>
 </head>
 <body>
@@ -41,7 +39,8 @@
     <div ng-view class="view-frame"></div>
   </div>
   <div class="footer">
-   <p>Copyright (c) 2015
+   <p><i class="fa fa-star" onClick="document.getElementById('id1').play()"></i>  Copyright <i class="fa fa-copyright"></i> 2015</p>
+   <audio id="id1" src="img/everythingisawesome.mp3"></audio>
   </div>
 </body>
 </html>
